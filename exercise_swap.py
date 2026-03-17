@@ -14,5 +14,6 @@ def swap():
     print(original_x)
     original_y = y
     print(original_y)
-    x,y = y, x
-    print(x,y)
+    x, y = y, x
+    print(x, y)
+
