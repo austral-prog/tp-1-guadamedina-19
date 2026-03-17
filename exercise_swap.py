@@ -15,4 +15,4 @@ def swap():
     original_y = y
     print(original_y)
     x,y = y, x
-    print(y, x)
+    print(x,y)
