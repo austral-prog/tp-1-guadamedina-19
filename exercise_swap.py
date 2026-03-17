@@ -10,9 +10,9 @@ def swap():
     """
     x = 10
     y = 20
-    x = x
-    print(x)
-    y = y
-    print(y)
-    x, y = y, x
+    orginal_x = x
+    print(orginal_x)
+    original_y = y
+    print(original_y)
+    x, y = original_y, original_x
     print(x, y)
