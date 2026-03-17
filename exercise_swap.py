@@ -14,7 +14,5 @@ def swap():
     print(original_x)
     original_y = y
     print(original_y)
-    intercambio_x = x + x
-    print(intercambio_x)
-    intercambio_y = y - x
-    print(intercambio_y)
+    x,y = y, x
+    print(y, x)
