@@ -11,7 +11,7 @@ def swap():
     x = 10
     y = 20
     original_x = x
-    print(orginal_x)
+    print(original_x)
     original_y = y
     print(original_y)
     x, y = original_y, original_x
